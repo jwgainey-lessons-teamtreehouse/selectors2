@@ -1,19 +1,7 @@
-/* Structural Pseudo-classes------------------ */
-li:first-child {
-    background: #52aab3;
+/* :nth Child Pseudo-classes------------------ */
+
+li:nth-child(2n + 3) {
+    background: #2baba3;
     color: white;
 }
-li:last-child {
-    background: tomato;
-    color: white;
-    border: none;
-}
 
-span:only-child {
-    color: #52bab3;
-    font-size: 1.5em;
-}
-
-li:empty {
-    background-color: tomato;
-}
